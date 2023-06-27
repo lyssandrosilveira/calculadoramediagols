@@ -44,8 +44,11 @@ def main():
         ['Fora', f'{media_fora:.2f}', f'{desvio_padrao_fora:.2f}', coef_var_fora_formatted]
     ]
 
-    # Exibe a tabela
+ # Exibe a tabela
     st.table(tabela)
+
+    # Exibe o crédito do desenvolvedor
+    st.write("Desenvolvido por Lyssandro Silveira")
 
 if __name__ == '__main__':
     main()
